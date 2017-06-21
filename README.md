@@ -10,3 +10,9 @@
 8. Visit http://localhost:3000/ and ensure that there no errors in console
 9. Visit http://localhost:3001/admin in browser
 9. to login use ```admin@example.com``` with ```password``` password
+
+
+### Production
+1. $ heroku create
+2. $ heroku buildpacks:add heroku/nodejs --index 1
+3. $ heroku buildpacks:add heroku/ruby --index 2
