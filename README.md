@@ -16,3 +16,13 @@
 1. $ heroku create
 2. $ heroku buildpacks:add heroku/nodejs --index 1
 3. $ heroku buildpacks:add heroku/ruby --index 2
+
+
+### GraphQL usage
+```
+	curl -XGET http://localhost:3000/api/ingredients -d "query={
+		ingredient(id: 1) {
+			description
+		}
+	}"
+``` 

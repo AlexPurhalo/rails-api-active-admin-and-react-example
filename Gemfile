@@ -44,3 +44,5 @@ gem 'pg', '~> 0.21.0'
 gem 'devise', '> 4.x'
 gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
+
+gem 'graphql', '~> 1.6', '>= 1.6.4'

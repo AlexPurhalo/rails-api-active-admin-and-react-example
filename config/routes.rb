@@ -4,5 +4,6 @@ Rails.application.routes.draw do
 
   scope '/api' do
     resources :drinks
+		get '/ingredients', to: 'ingredients#query'
   end
 end
