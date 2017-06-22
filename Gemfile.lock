@@ -100,6 +100,8 @@ GEM
     formtastic_i18n (0.6.0)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    graphiql-rails (1.4.2)
+      rails
     graphql (1.6.4)
     has_scope (0.7.1)
       actionpack (>= 4.1, < 5.2)
@@ -223,6 +225,7 @@ DEPENDENCIES
   byebug
   devise (> 4.x)
   foreman
+  graphiql-rails
   graphql (~> 1.6, >= 1.6.4)
   inherited_resources!
   listen (>= 3.0.5, < 3.2)

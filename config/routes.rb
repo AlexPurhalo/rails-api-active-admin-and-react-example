@@ -4,6 +4,10 @@ Rails.application.routes.draw do
 
   scope '/api' do
     resources :drinks
-		get '/ingredients', to: 'ingredients#query'
-  end
+		post '/ingredients', to: 'ingredients#query'
+	end
+
+	if Rails.env.development?
+		mount GraphiQL::Rails::Engine, at: "/graphiql", graphql_path: "api/ingredients"
+	end
 end

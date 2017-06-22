@@ -46,3 +46,4 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
 
 gem 'graphql', '~> 1.6', '>= 1.6.4'
+gem 'graphiql-rails'
